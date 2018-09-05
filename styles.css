@@ -14,7 +14,6 @@ h1{
 
 ul{
     list-style-type: none;
-    float: right;
     padding: 0px;
     margin: 0px;
 }
@@ -27,19 +26,22 @@ ul li{
 .header{
     line-height: 60px;
     padding: 20px;
-    background-color: #F4CB42
+    background-color: #F4CB42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content{
     width: 70%;
-    float: left;
+    justify-content: flex-start;
     background-color: lightgray;
     min-height: 500px;
 }
 
 .sidebar{
     width: 30%;
-    float: right;
+    justify-content: flex-end;
     background-color: darkgray;
     color: #ffffff;
     min-height: 500px;
@@ -51,7 +53,7 @@ p{
 }
 
 .main{
-    float: left;
+    display: flex;
 }
 
 .blog-post{
